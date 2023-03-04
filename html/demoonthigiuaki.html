@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo on thi giua ki</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+        
+        .wrapper {
+            width: 1089px;
+            height: 700px;
+            box-sizing: border-box;
+            background-color: antiquewhite;
+        }
+        
+        body {
+            background: url(https://i.pinimg.com/originals/2f/60/6a/2f606ad14bf9171e5f41b42a01b4441f.jpg);
+        }
+        
+        header {
+            width: 1089px;
+            height: 150px;
+            background-color: green;
+            position: relative;
+        }
+        
+        .top-menu {
+            height: 50px;
+            width: 600px;
+            position: absolute;
+            top: 70px;
+            right: 30px;
+        }
+        
+        nav {
+            width: 1089px;
+            height: 50px;
+            background-color: royalblue;
+        }
+        
+        .content {
+            width: 1089px;
+            height: 400px;
+            background-color: grey;
+        }
+        
+        aside {
+            width: 40%;
+            height: 400px;
+            background-color: rgb(136, 149, 172);
+            float: left;
+        }
+        
+        section {
+            width: 1089px;
+            height: 50px;
+            background-color: royalblue;
+        }
+        
+        footer {
+            width: 1089px;
+            height: 50px;
+            background-color: royalblue;
+        }
+        
+        .menu li {
+            height: 50px;
+            width: 150px;
+            line-height: 50px;
+            list-style: none;
+            float: left;
+            background-color: teal;
+            text-indent: 20px;
+        }
+        
+        li a {
+            text-decoration: none;
+            color: yellow;
+            font-weight: bolder;
+        }
+        
+        .menu li:hover {
+            background-color: violet;
+        }
+        
+        li:hover>a {
+            color: rgb(58, 18, 206);
+            font-style: italic;
+        }
+        
+        .top-menu li {
+            line-height: 50px;
+            display: inline-flex;
+            width: 90px;
+        }
+        
+        #frm {
+            width: 100%;
+            height: 400px;
+            background-color: rgb(194, 181, 224);
+        }
+        
+        .lbl {
+            width: 30%;
+            height: 380px;
+            background-color: rgb(194, 181, 224);
+            float: left;
+            padding-left: 20px;
+        }
+        
+        .inp {
+            width: 60%;
+            height: 380px;
+            background-color: rgb(194, 181, 224);
+            float: left;
+        }
+        
+        #frm1 {
+            display: inline-flex;
+        }
+        
+        #h1 {
+            position: absolute;
+            text-align: center;
+            top: 20px;
+            left: 40px;
+            color: floralwhite;
+            text-shadow: 5px 10px 10px rgb(13, 36, 77);
+        }
+        
+        #h2 {
+            position: absolute;
+            text-align: center;
+            top: 55px;
+            left: 400px;
+            color: sienna;
+            text-shadow: 2px 3px 5px yellow;
+        }
+        
+        #h3 {
+            position: absolute;
+            text-align: center;
+            top: 55px;
+            left: 400px;
+            color: sienna;
+            text-shadow: 2px 3px 5px yellow;
+        }
+        
+        #h4 {
+            position: absolute;
+            text-align: center;
+            top: 80px;
+            left: 400px;
+            color: sienna;
+            text-shadow: 2px 3px 5px yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <H1 id="h1">TRUONG DAI HOC CONG NGHIEP THANH PHO HO CHI MINH</H1>
+            <h2 id="h2">KHOA CONG NGHE THONG TIN</h2>
+            <img src="../img/header.jfif" alt="" srcset="" width="100%" height="100%">
+            <ul class="top-menu">
+                <li><a href="url">FIT</a></li>
+                <li><a href="url">DOAN TN</a></li>
+                <li><a href="url">TTTH</a></li>
+                <li><a href="url">SE</a></li>
+                <li>
+                    <form action="" method="post" id="frm1">
+                        <input type="text" name="txtName" id="txtName" placeholder="Name"><button>Search</button>
+                    </form>
+                </li>>
+            </ul>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="https://iuh.edu.vn">HOME</a></li>
+                <li><a href="https://fb.com/tam1593587">SERVICE</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">HELP</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <aside>
+
+            </aside>
+            <section>
+                <form action="#" method="get" id="frm">
+                    <br>
+                    <div class="lbl">
+                        <label for="">Nhan 1</label>
+                        <label for="">Nhan 2</label>
+                        <label for="">Nhan 3</label>
+                        <label for="">Nhan 4</label>
+                        <label for="">Nhan 5</label>
+                    </div>
+                    <div class="inp">
+                        <input type="text" name="" id="">
+                        <BR></BR>
+                        <input type="text" name="" id="">
+                        <BR></BR>
+                        <input type="text" name="" id="">
+                        <BR></BR>
+                        <input type="text" name="" id="">
+                        <BR></BR>
+                        <input type="text" name="" id="">
+                        <BR></BR>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <footer>
+            <img src="../img/footer.jfif" alt="" srcset="" width="100%" height="100%">
+            <h3 id="h3">@CopyRight: Ma so sinh vien:21099531, Nguyen Thanh Tam</h3>
+            <h4 id="h4">DHCNTT17CTT</h4>
+        </footer>
+    </div>
+</body>
+
+</html>
